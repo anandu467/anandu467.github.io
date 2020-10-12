@@ -1,160 +1,133 @@
-body{
-    margin: 0%;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    color: #40514E;
+body {
+  margin: 0%;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
 }
 
-.box{
-    background-color: #e4f9f5;
-    padding-top: 20px;
-    line-height: 1.5;
-
+.box {
+  background-color: #e4f9f5;
+  padding-top: 60px;
+  line-height: 1.5;
 }
 
-h1{
-    margin: 0;
-    font-family: 'Sacramento', cursive;
-    font-size: 90px;
-    margin: 30px auto 0 auto;
-    color: #66BFBF;
-    font-weight: bold;
+h1 {
+  margin: 0;
+  font-family: "Sacramento", cursive;
+  font-size: 90px;
+  margin: 30px auto 0 auto;
+  color: #66bfbf;
+  font-weight: bold;
 }
 
-h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    margin-top: 0;
-    color:  #66BFBF;
-    font-weight: bold;
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  margin-top: 0;
+  color: #66bfbf;
+  font-weight: bold;
 }
-h3{
-    color:  #66BFBF;
-
-
+h3 {
+  color: #66bfbf;
 }
 
-
-.middle{
-    background-color: red;
-    height: 200px;
-    width: 200px;
-
-
+.dev {
+  text-decoration: underline;
+}
+.cloud {
+  height: 100px;
 }
 
-.bottom{
-    background-color: royalblue;
-    height: 200px;
-    width: 200px;
+.mountain {
+  width: 800px;
+  position: relative;
+  right: 35px;
 }
-.dev{
-    text-decoration: underline;
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
 }
-.cloud{
-    height: 100px;
-    
+.top-cloud {
+  position: relative;
+  left: 180px;
+  top: 10px;
 }
-
-.mountain{
-    width: 800px;
-    position: relative;
-    right: 20px;
-}
-.bottom-cloud{
-    position: absolute;
-    left: 400px;
-
-}
-.top-cloud{
-    position: relative;
-    left: 180px;
-    
-}
-.dpic{
-    height: 200px; 
-
-
+.dpic {
+  height: 200px;
 }
 
-.spic1{
-    float: left;
-    margin-right: 30px; 
-
-
+.spic1 {
+  float: left;
+  margin-right: 30px;
 }
 
-.spic2{
-    float: right;
-    margin-left: 30px; 
+.spic2 {
+  float: right;
+  margin-left: 30px;
 }
-.skill1,.skill2{
-    width: 50%;
-    margin: 80px auto;
-    text-align: left;
-    line-height: 2;
+.skill1,
+.skill2 {
+  width: 50%;
+  margin: 80px auto;
+  text-align: left;
+  line-height: 2;
 }
-.profile{
-    width: 600px;
-    margin:auto;
-    line-height: 2;
-    padding-bottom: 40px;
+.profile {
+  width: 600px;
+  margin: auto;
+  line-height: 2;
+  padding-bottom: 40px;
 }
-.skills{
-    padding-top:50px;
-    
-}
-
-hr{
-    color:#686d76;
-    height: 2px;
-    width: 10%;
-    border-style:dotted none none;
-    border-width: 6px;
-    opacity: 0.8;
+.skills {
+  padding-top: 50px;
 }
 
-.bottom-container{
-    padding-top: 30px;
-    background-color: #66BFBF;
-    height: 140px;
+hr {
+  color: #686d76;
+  height: 2px;
+  width: 10%;
+  border-style: dotted none none;
+  border-width: 6px;
+  opacity: 0.8;
 }
 
-a.links{
-    color: #11999E;
-    padding:30px;
-    text-decoration: none;
-
-
-
-}
-a.links:hover{
-    color: whitesmoke;
-}
-a.button{
-    color: #11999E;
-    display: inline-block;
-    background-color: #11999E;
-    width: 160px;
-    height: 36px;
-    text-align: center;
-    margin: auto;
-    color: white;
-    padding-top: 18px;
-    border-radius: 60px;
-    text-decoration: none;
-
-}
-.copy{
-    color:whitesmoke;
-    padding-top: 60px;
-    font-size: small;
+.bottom-container {
+  padding-top: 30px;
+  background-color: #66bfbf;
+  height: 140px;
 }
 
-.contact-me{
-    padding-bottom: 30px;
-    padding-top: 30px;
-    width :500px;
-    margin : auto;
+a.links {
+  color: #11999e;
+  padding: 30px;
+  text-decoration: none;
+}
+a.links:hover {
+  color: whitesmoke;
+}
+a.button {
+  color: #11999e;
+  display: inline-block;
+  background-color: #11999e;
+  width: 160px;
+  height: 36px;
+  text-align: center;
+  margin: auto;
+  color: white;
+  padding-top: 18px;
+  border-radius: 60px;
+  text-decoration: none;
+}
+.copy {
+  color: whitesmoke;
+  padding-top: 60px;
+  font-size: small;
+  margin-bottom: 0;
+}
 
+.contact-me {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  width: 500px;
+  margin: auto;
 }
