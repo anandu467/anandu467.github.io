@@ -154,5 +154,7 @@ a.button{
 .contact-me{
     padding-bottom: 30px;
     padding-top: 30px;
+    width :500px;
+    margin : auto;
 
 }
