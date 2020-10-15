@@ -69,7 +69,7 @@ h3 {
 .skill1,
 .skill2 {
   width: 50%;
-  margin: 60px auto;
+  margin: 60px auto 0 auto;
   text-align: left;
   line-height: 2;
   padding-bottom: 60px;
