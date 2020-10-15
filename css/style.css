@@ -7,7 +7,7 @@ body {
 
 .box {
   background-color: #e4f9f5;
-  padding-top: 60px;
+  padding-top: 10px;
   line-height: 1.5;
 }
 
@@ -26,6 +26,7 @@ h2 {
   margin-top: 0;
   color: #66bfbf;
   font-weight: bold;
+
 }
 h3 {
   color: #66bfbf;
@@ -68,18 +69,21 @@ h3 {
 .skill1,
 .skill2 {
   width: 50%;
-  margin: 80px auto;
+  margin: 60px auto;
   text-align: left;
   line-height: 2;
+  padding-bottom: 60px;
 }
 .profile {
   width: 600px;
   margin: auto;
   line-height: 2;
   padding-bottom: 40px;
+  margin-top: 40px;
 }
 .skills {
-  padding-top: 50px;
+
+  margin-top: 80px;
 }
 
 hr {
@@ -89,12 +93,13 @@ hr {
   border-style: dotted none none;
   border-width: 6px;
   opacity: 0.8;
+  margin-top: 10px;
 }
 
 .bottom-container {
   padding-top: 30px;
   background-color: #66bfbf;
-  height: 180px;
+  height: 140px;
 }
 
 a.links {
@@ -127,7 +132,20 @@ a.button {
 
 .contact-me {
   padding-bottom: 30px;
-  padding-top: 30px;
+  padding-top: 60px;
   width: 500px;
   margin: auto;
+}
+
+.nav {
+  position: fixed;
+  height: 40px;
+  background-color: #66bfbf;
+
+  z-index: 100;
+  width: 100%;
+  text-align: right;
+}
+.skill-height{
+  height: 1px;
 }
