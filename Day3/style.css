@@ -128,5 +128,16 @@ span{
     left: 425px;
 }
 
-.anandu{
+@media screen and (max-width: 900px) {
 
+    .form {
+
+        width: 90%;
+        }
+
+    .sicon {
+        
+            font-size: 5.4vw;
+            }
+  }
+  
