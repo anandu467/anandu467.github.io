@@ -100,23 +100,6 @@ nav ul{
 }
 
 
-@media (max-width:900px)
-{
-    nav{
-        text-align: center;
-    }
-    #logo{
-        padding-bottom: 2rem;
-    }
-
-    html{
-        font-size: 50%;
-    }
-
-    animation: birdAnimation 11s alternate-reverse infinite linear;
-
-}
-
 /*Locations*/
 
 
@@ -336,4 +319,85 @@ li svg{
         top: 4rem;
         transform: scale(50%);
     }
+}
+
+.loading{
+    min-height: 100vh;
+    background-color: rgb(2, 35, 66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading h2{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(2, 35, 66);
+  
+    -webkit-text-stroke: 0.8px rgb(4, 66, 124);
+    position: relative;
+}
+.loading h2::before{
+    content: attr(data-text);
+    color:rgb(25, 209, 255);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 17%;
+    border-right: 2px solid rgb(25, 209, 255);
+    overflow: hidden;
+    animation: loadingAnimation 3s linear infinite ;
+    
+}
+
+@keyframes loadingAnimation{
+    0%{
+        width: 0%;
+
+    }
+    100%{
+        width: 100%;
+
+    }
+}
+
+
+@media (max-width:900px)
+{
+    
+.card {
+    /* min-height: 45vh; */
+    min-height: 30vh;
+  }
+    nav{
+        text-align: center;
+    }
+    #logo{
+        padding-bottom: 2rem;
+    }
+
+    html{
+        font-size: 50%;
+    }
+
+    
+/* style.css | http://127.0.0.1:5500/style.css */
+
+  
+  .locations-head h3 {
+    /* background: linear-gradient(#003372,#000000ec); */
+    /* background-clip: text; */
+    /* color: transparent; */
+    color: black;
+  }
+  
+  .card-deck {
+    padding: 3rem 0;
+  }
+  
+  .contact {
+    /* min-height: 100vh; */
+    min-height: 80vh;
+  }
+  
+
 }
