@@ -1,0 +1,339 @@
+/*Global Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 2.6rem;
+}
+ li,button,label,input,p{
+     font-size: 1.5rem;
+
+ }
+ h2{
+     font-size: 3.6rem;
+ }
+ h3{
+     font-size: 2.1rem;
+     font-weight: normal;
+ }
+ 
+
+button{
+    padding: 1.6rem 5.5rem;
+    background-color: #4c6e97;
+    border: none;
+    border-radius: 20rem;
+    transition: background-color 0.5s ease-in;
+
+}
+
+button:hover{
+    background-color: #2c415c ;
+
+}
+/*main section*/
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.main-head{
+    background-color:#131c27;
+    color: white;
+
+
+}
+nav{
+    min-height: 10vh;
+    width: 90%;
+    padding: 2rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo{
+    flex: 1.2 1 40rem;
+    font-family: 'Pattaya', sans-serif;
+    font-weight: 400;
+ 
+
+}
+
+
+.locations{
+    background-image: linear-gradient(rgba(0,0,0,0.5),transparent),url("./images/anantha-krishnan-ViHhQlVVIIE-unsplash.jpg");
+    min-height: 90vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+
+
+}
+
+.locations h3{
+    padding: 4rem;
+}
+
+
+@media (max-width:900px)
+{
+    nav{
+        text-align: center;
+    }
+    #logo{
+        padding-bottom: 2rem;
+    }
+
+    html{
+        font-size: 50%;
+    }
+
+    animation: birdAnimation 11s alternate-reverse infinite linear;
+
+}
+
+/*Locations*/
+
+
+#locations{
+    min-height: 100vh;
+    background-image: url("./images/Mobile-Kerala-Wallpaper-Hd-Hd-Wallpapers-and-backgrounds-.jpg");
+    background-size: cover;
+    background-position: top;
+    color:black;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+
+
+}
+
+
+.locations-head{
+    width: 90%;
+    margin: auto;
+
+    padding-bottom: 30vh;
+
+}
+
+.locations-head h2{
+    text-decoration: underline;
+
+    margin-bottom: 4vh;
+   
+
+}
+
+
+.locations-head h3{
+    background:linear-gradient(#003372,#000000ec);
+    background-clip: text;
+    color: transparent;
+}
+
+#benfits{
+    min-height: 100vh;
+}
+.benfits-header{
+    min-height: 30vh;
+    padding: 3rem;
+    background-color: #131c27;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.benfits-header h2{
+    padding: 2rem 0;
+}
+
+.card-deck{
+    min-height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+
+}
+
+.card{
+
+    flex: 1 1 25rem;
+    margin: 4rem 5rem;
+    min-height: 45vh;
+    text-align: center;
+
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.205),0px 10px 20px rgba(0, 0, 0, 0.158);
+}
+
+
+.card h3,.card p{
+    padding: 2rem 2rem;
+}
+.card-head{
+
+
+
+    background-color: whitesmoke;
+    color: white;
+    min-height: 10rem;
+
+
+
+}
+.card-head img{
+    max-width: 15%;
+    margin: 2rem;
+
+
+}
+
+.contact{
+    min-height: 100vh;
+    background-image: url("./images/srinivasan-venkataraman-9NmYCjfBGp0-unsplash.jpg");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-wrapper{
+    min-width: 50%;
+    background-color: rgba(0, 0, 0, 0.664);
+    color: white;
+
+    border-radius: 2rem;
+
+
+
+}
+.form-head{
+    text-align: center;
+    padding: 4rem;
+}
+
+.contact-input{
+    text-align: center;
+    padding: 3rem;
+
+}
+
+.contact-input input{
+    background-color: white;
+    border: none;
+    padding: 0.8rem 3rem;
+
+}
+.contact-input label{
+    margin: 0 2rem;
+}
+
+
+
+.form-wrapper button{
+
+    width: 100%;
+    margin-top: 6rem;
+    border-radius:  0 0 2rem 2rem ;
+}
+
+
+footer{
+    background-color: #131c27;
+    color: white;
+
+
+
+
+
+
+}
+
+
+.footer-wrapper{
+    min-height: 10vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-wrapper h1{
+    flex: 1 1 40rem;
+
+}
+
+.footer-wrapper ul{
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 40rem;
+    list-style: none
+    ;
+}
+
+li svg{
+    height: 2rem;
+
+}
+
+#birds{
+    height: 90px;
+    position: absolute;
+    top: 1rem;
+    left: 0%;
+    opacity: 80%;
+    animation: birdAnimation 20s alternate-reverse infinite linear;
+
+
+
+}
+
+
+@keyframes birdAnimation{
+
+    from{
+
+        left: -110%;
+        top: 1rem;
+        transform: scale(100%);
+
+    }
+
+    to{
+        left: 110%;
+        top: 4rem;
+        transform: scale(50%);
+    }
+}
