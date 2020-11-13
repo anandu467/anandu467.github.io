@@ -7,9 +7,10 @@
 
 }
 
-html{
+html,body{
     font-size: 62.5%;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 h1{
@@ -137,9 +138,8 @@ nav ul{
 
 
 .locations-head h3{
-    background:linear-gradient(#003372,#000000ec);
-    background-clip: text;
-    color: transparent;
+
+    color: black;
 }
 
 #benfits{
@@ -297,7 +297,7 @@ li svg{
     top: 1rem;
     left: 0%;
     opacity: 80%;
-    animation: birdAnimation 20s alternate-reverse infinite linear;
+    animation: birdAnimation 20s  infinite linear;
 
 
 
@@ -329,7 +329,7 @@ li svg{
     align-items: center;
 }
 .loading h2{
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
     color: rgb(2, 35, 66);
   
@@ -382,13 +382,7 @@ li svg{
     
 /* style.css | http://127.0.0.1:5500/style.css */
 
-  
-  .locations-head h3 {
-    /* background: linear-gradient(#003372,#000000ec); */
-    /* background-clip: text; */
-    /* color: transparent; */
-    color: black;
-  }
+
   
   .card-deck {
     padding: 3rem 0;
